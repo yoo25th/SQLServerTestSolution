@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SQLServerTestSolution_IS", "SQLServerTestSolution_IS\SQLServerTestSolution_IS.dtproj", "{A292D7A2-81B5-4E6C-95D8-326DAC932F6B}"
 EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "SQLServerTestSolution_AS", "SQLServerTestSolution_AS\SQLServerTestSolution_AS.dwproj", "{FE303C8D-2C95-47E5-A771-B6E6347EA422}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
@@ -10,6 +12,9 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A292D7A2-81B5-4E6C-95D8-326DAC932F6B}.Development|Default.ActiveCfg = Development
 		{A292D7A2-81B5-4E6C-95D8-326DAC932F6B}.Development|Default.Build.0 = Development
+		{FE303C8D-2C95-47E5-A771-B6E6347EA422}.Development|Default.ActiveCfg = Development
+		{FE303C8D-2C95-47E5-A771-B6E6347EA422}.Development|Default.Build.0 = Development
+		{FE303C8D-2C95-47E5-A771-B6E6347EA422}.Development|Default.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
