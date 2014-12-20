@@ -5,16 +5,46 @@ Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SQLServerTestSolution_IS", 
 EndProject
 Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "SQLServerTestSolution_AS", "SQLServerTestSolution_AS\SQLServerTestSolution_AS.dwproj", "{FE303C8D-2C95-47E5-A771-B6E6347EA422}"
 EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "SQLServerTestSolution_RS", "SQLServerTestSolution_RS\SQLServerTestSolution_RS.rptproj", "{80236D6A-DDC8-4CA3-A3B4-FAF6D7CDF22E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
 		Development|Default = Development|Default
+		Release|Default = Release|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A292D7A2-81B5-4E6C-95D8-326DAC932F6B}.Debug|Default.ActiveCfg = Development
+		{A292D7A2-81B5-4E6C-95D8-326DAC932F6B}.Debug|Default.Build.0 = Development
+		{A292D7A2-81B5-4E6C-95D8-326DAC932F6B}.DebugLocal|Default.ActiveCfg = Development
+		{A292D7A2-81B5-4E6C-95D8-326DAC932F6B}.DebugLocal|Default.Build.0 = Development
 		{A292D7A2-81B5-4E6C-95D8-326DAC932F6B}.Development|Default.ActiveCfg = Development
 		{A292D7A2-81B5-4E6C-95D8-326DAC932F6B}.Development|Default.Build.0 = Development
+		{A292D7A2-81B5-4E6C-95D8-326DAC932F6B}.Release|Default.ActiveCfg = Development
+		{A292D7A2-81B5-4E6C-95D8-326DAC932F6B}.Release|Default.Build.0 = Development
+		{FE303C8D-2C95-47E5-A771-B6E6347EA422}.Debug|Default.ActiveCfg = Development
+		{FE303C8D-2C95-47E5-A771-B6E6347EA422}.Debug|Default.Build.0 = Development
+		{FE303C8D-2C95-47E5-A771-B6E6347EA422}.Debug|Default.Deploy.0 = Development
+		{FE303C8D-2C95-47E5-A771-B6E6347EA422}.DebugLocal|Default.ActiveCfg = Development
+		{FE303C8D-2C95-47E5-A771-B6E6347EA422}.DebugLocal|Default.Build.0 = Development
+		{FE303C8D-2C95-47E5-A771-B6E6347EA422}.DebugLocal|Default.Deploy.0 = Development
 		{FE303C8D-2C95-47E5-A771-B6E6347EA422}.Development|Default.ActiveCfg = Development
 		{FE303C8D-2C95-47E5-A771-B6E6347EA422}.Development|Default.Build.0 = Development
 		{FE303C8D-2C95-47E5-A771-B6E6347EA422}.Development|Default.Deploy.0 = Development
+		{FE303C8D-2C95-47E5-A771-B6E6347EA422}.Release|Default.ActiveCfg = Development
+		{FE303C8D-2C95-47E5-A771-B6E6347EA422}.Release|Default.Build.0 = Development
+		{FE303C8D-2C95-47E5-A771-B6E6347EA422}.Release|Default.Deploy.0 = Development
+		{80236D6A-DDC8-4CA3-A3B4-FAF6D7CDF22E}.Debug|Default.ActiveCfg = Debug
+		{80236D6A-DDC8-4CA3-A3B4-FAF6D7CDF22E}.Debug|Default.Build.0 = DebugLocal
+		{80236D6A-DDC8-4CA3-A3B4-FAF6D7CDF22E}.Debug|Default.Deploy.0 = DebugLocal
+		{80236D6A-DDC8-4CA3-A3B4-FAF6D7CDF22E}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{80236D6A-DDC8-4CA3-A3B4-FAF6D7CDF22E}.DebugLocal|Default.Build.0 = DebugLocal
+		{80236D6A-DDC8-4CA3-A3B4-FAF6D7CDF22E}.Development|Default.ActiveCfg = DebugLocal
+		{80236D6A-DDC8-4CA3-A3B4-FAF6D7CDF22E}.Development|Default.Build.0 = DebugLocal
+		{80236D6A-DDC8-4CA3-A3B4-FAF6D7CDF22E}.Release|Default.ActiveCfg = Release
+		{80236D6A-DDC8-4CA3-A3B4-FAF6D7CDF22E}.Release|Default.Build.0 = Release
+		{80236D6A-DDC8-4CA3-A3B4-FAF6D7CDF22E}.Release|Default.Deploy.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
