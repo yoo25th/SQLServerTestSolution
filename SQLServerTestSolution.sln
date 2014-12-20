@@ -1,7 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SQLServerTestSolution_IS", "SQLServerTestSolution_IS\SQLServerTestSolution_IS.dtproj", "{A292D7A2-81B5-4E6C-95D8-326DAC932F6B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A292D7A2-81B5-4E6C-95D8-326DAC932F6B}.Development|Default.ActiveCfg = Development
+		{A292D7A2-81B5-4E6C-95D8-326DAC932F6B}.Development|Default.Build.0 = Development
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
